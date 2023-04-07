@@ -1,13 +1,13 @@
 const CACHE_NAME = '2048-game-pwa-cache';
 
 const urlsToCache = [
-  '/pwa-examples/2048/',
-  '/pwa-examples/2048/index.html',
-  '/pwa-examples/2048/index.js',
-  '/pwa-examples/2048/style.css',
-  '/pwa-examples/2048/icons/icon-16x16.png',
-  '/pwa-examples/2048/icons/icon-256x256.png',
-  '/pwa-examples/2048/icons/icon-512x512.png',
+  '/',
+  '/index.html',
+  '/index.js',
+  '/style.css',
+  '/icons/icon-16x16.png',
+  '/icons/icon-256x256.png',
+  '/icons/icon-512x512.png',
 ];
 
 self.addEventListener('install', event => {

@@ -238,7 +238,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 if ('serviceWorker' in navigator) {
     navigator.serviceWorker
-        .register('/pwa-examples/2048/sw.js')
+        .register('/sw.js')
         .then(() => { console.log('Service Worker Registered'); });
 }
 
