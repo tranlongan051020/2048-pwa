@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2048</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="index.js" defer></script>
+    <link rel="manifest" href="manifest.webmanifest">
+</head>
+
+<body>
+    <div class="install-button">
+        <button id="install-btn" class="btn-install" onclick="installPWA()">
+            Install App
+        </button>
+        <div id="install-notice" class="install-notice">
+            <p>
+                To install this app, click the Install button above, then follow the
+                instructions.
+            </p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="info">
+            <h1>2048</h1>
+            <div class="score-container">
+                <div class="score-title">score</div>
+                <span id="score">0</span>
+            </div>
+        </div>
+        <span id="result">Join the numbers and get to the <b>2048</b> tile!</span>
+        <div class="grid"></div>
+    </div>
+</body>
+
+</html>
